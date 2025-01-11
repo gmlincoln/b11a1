@@ -235,3 +235,66 @@ header .menu {
     font-weight: 400;
     line-height: 24px;
 }
+
+/* Opinion Section */
+#opinion {
+    padding-bottom: 50px;
+}
+
+.opinions {
+    background: #fff;
+    padding: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.opinions .table {
+    border-collapse: collapse;
+}
+
+.opinions .table>thead tr {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #C6E4D6;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.opinions .table>thead tr>td {
+    padding: 20px;
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.opinions .table>tbody tr {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.10);
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opinions .table>tbody tr>td:nth-child(odd) {
+    padding: 10px;
+    font-size: 1rem;
+    color: #0E0E0E;
+}
+
+.opinions .table>tbody tr>td:nth-child(even) {
+    padding: 10px;
+    border-left: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 1rem;
+    color: #0E0E0E;
+}
+
+.opinions .table>tbody tr>td>select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+    background: #C6E4D6;
+    font-size: 1rem;
+    color: #0E0E0E;
+}
