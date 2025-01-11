@@ -196,3 +196,42 @@ header .menu {
 .warning {
     background: #FFC239;
 }
+
+/* Speech Section */
+#speech {
+    padding-bottom: 50px;
+}
+
+.speech {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px;
+}
+
+.speech-content {
+    background: url('../assets/quote-bg.png') no-repeat top left;
+    padding: 48px 24px;
+    text-align: justify;
+}
+
+.speech .speech-content>p {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.speech .speech-content>h3 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.speech .speech-content>span {
+    color: rgba(14, 14, 14, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
