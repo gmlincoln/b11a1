@@ -17,10 +17,17 @@ body {
 
 }
 
-.section-title {
+.section-top .section-title {
     font-size: 2rem;
     color: #0E0E0E;
+}
 
+.section-top>p {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
 }
 
 /* Header Section Style */
@@ -99,7 +106,7 @@ header .menu {
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: #FFF;
     padding: 1.5rem;
-
+    flex: 1;
 }
 
 .pillars .pillar-item>img {
@@ -117,4 +124,75 @@ header .menu {
     font-size: 1rem;
     line-height: 20px;
     font-weight: 400;
+}
+
+/* Vision Section */
+#vision {
+    padding-bottom: 60px;
+}
+
+.visions {
+    margin-top: 30px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.visions .vision-item {
+    padding: 32px;
+    border-radius: 16px;
+    flex: 1;
+}
+
+.visions .vision-item>img {
+    margin-bottom: 20px;
+}
+
+.visions .vision-item>h3 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.visions .vision-item>p {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+
+}
+
+.digital {
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+}
+
+.green {
+    border: 0px solid #09A15C;
+    background: #C6E4D6
+}
+
+.modern {
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+}
+
+.btn {
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.primary {
+    background: #5490F5;
+}
+
+.success {
+    background: #09A15C;
+}
+
+.warning {
+    background: #FFC239;
 }
