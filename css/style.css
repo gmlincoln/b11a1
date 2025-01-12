@@ -358,6 +358,78 @@ header .menu {
     color: #fff;
 }
 
+/* Donation Section */
+#donation {
+    padding-bottom: 30px;
+}
+
+.section-top .section-title-middle {
+    font-size: 2rem;
+    color: #0E0E0E;
+    text-align: center;
+}
+
+.section-top .section-details {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    width: 900px;
+    margin: 20px auto 30px;
+    text-align: center;
+}
+
+.donation-content .donation-amount {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.donation-content .donation-amount .donation-item {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 2.5rem;
+    border-radius: 15px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+.donation-content .donation-amount .donation-item:hover,
+.donation-content .donation-amount .active {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #C6E4D6;
+}
+
+.donation-content .amount-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.donation-content .amount-field>input {
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 20px 40px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    text-align: center;
+    width: 80%;
+}
+
+.btn-donate {
+    border-radius: 5px;
+    background: #006A50;
+    padding: 13px 26px;
+    text-decoration: none;
+    color: #fff;
+}
+
 /* Footer Section */
 #footer {
     padding: 50px 0px;
